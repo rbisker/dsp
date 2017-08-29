@@ -27,14 +27,20 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 What do the following commands do:  
 `ls`  
+*lists all files in a direcory*
 `ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
+*lists all files including hidden files "."*
+`ls -l`
+*lists files in a long format with permission, file size, modification date*  
+`ls -lh`
+*same as above with with file size in a human readable format*  
+`ls -lah`
+*same as above but including hidden files*    
 `ls -t`  
+*lists files by modification date, starting with most recent*
 `ls -Glp`  
+*lists files in long format, without groups, showing "\" for folders
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
 
 ---
 
@@ -42,15 +48,16 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+It seems like -R and -a could be useful
 ---
 
 ### Q4.  Xargs   
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`xargs` allows you to build a command that can be sent as argument to other commands that don't accept input from standard input
+ for example, `find . -name '*.md' | xargs wc -l` lists the number of lines of all Markdown files in the current path and its subfolders
+ 
 
  
 

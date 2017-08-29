@@ -56,6 +56,8 @@ What do the following commands do:
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
 It seems like -R and -a could be useful
+
+
 ---
 
 ### Q4.  Xargs   

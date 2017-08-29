@@ -28,19 +28,24 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 What do the following commands do:  
 `ls`  
 *lists all files in a direcory*
+
 `ls -a`  
 *lists all files including hidden files "."*
-`ls -l`
 
+`ls -l`
 *lists files in a long format with permission, file size, modification date*  
+
 `ls -lh`
 *same as above with with file size in a human readable format*  
+
 `ls -lah`
 *same as above but including hidden files*    
+
 `ls -t`  
 *lists files by modification date, starting with most recent*
+
 `ls -Glp`  
-*lists files in long format, without groups, showing "\" for folders
+*lists files in long format, without groups, showing "\" for folders*
 
 
 ---

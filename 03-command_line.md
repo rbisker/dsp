@@ -18,8 +18,18 @@ Here's a list of items with which you should be familiar:
 * copying a file from one directory to another
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
+* `pwd` shows current path
+* `mkdir` makes a new directory
+* `rmdir` deletes a directory
+* `touch <filename>` makes a new, blank file
+* `rm` deletes a file. Use the -r option to delete subdirectories and files
+* `mv oldfile newfile` renames a file
+* `ls -a` lists all files including those that are hidden
+* `cp file1 file2` makes a copy of file1 into file2
+* `grep <string> <filename>` returns all lines where the string appears in a file
+* `less <file>` allows you to interactively view a file. can also be used with grep
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+[Learn enough to be dangerous](https://www.learnenough.com/command-line-tutorial) has a good tutorial on basic command line stuff
 
 ---
 

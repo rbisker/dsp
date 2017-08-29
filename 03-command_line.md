@@ -31,6 +31,7 @@ What do the following commands do:
 `ls -a`  
 *lists all files including hidden files "."*
 `ls -l`
+
 *lists files in a long format with permission, file size, modification date*  
 `ls -lh`
 *same as above with with file size in a human readable format*  
